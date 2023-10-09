@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  box-sizing: border-box;
+}
+
+.main_container {
+  width: 1440px;
+  height: 6061px;
+}
+
+.header_container {
+  font-family: Inter;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1251px;
+  height: 58px;
+  margin: 45px 96px 0 93px;
+}
+
+.logo_header {
+  width: 53px;
+  height: 53px;
+}
+
+.bar_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 54px;
+}
+
+.bar_item {
+  font-family: Inter;
+  width: 500;
+  color: #606060;
+}
+
+.search_input {
+  width: 348px;
+  height: 57px;
+  border: none;
+  border-radius: 15px;
+  background-color: #EDEDED;
+}
+
+.button_connect {
+  font-family: Inter;
+  width: 200px;
+  height: 57px;
+  border: none;
+  background-color: #141416;
+  border-radius: 16px;
+}
+
+.div_button_connect {
+  color: white; 
+}
